@@ -1,7 +1,7 @@
 {
   "name": "cs-scss-normalize",
   "version": "1.0.0",
-  "description": "My SCSS normalizeer, based on normalize.css 6.0.0",
+  "description": "My SCSS normalizer, based on normalize.css 6.0.0",
   "engines": {
     "node": "6.10.0",
     "npm": "3.10.0"
