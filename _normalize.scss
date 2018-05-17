@@ -246,6 +246,19 @@ select { /* 1 */
 }
 
 /**
+ * Remove inner focus ring in FF
+ * 1. prevent <option>s from becoming transparent as well.
+ */
+select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 black;
+}
+
+option:not(:checked) {
+  color: black; /* 1 */
+}
+
+/**
  * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
  *    controls in Android 4.
  * 2. Correct the inability to style clickable types in iOS and Safari.
