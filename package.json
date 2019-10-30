@@ -1,19 +1,10 @@
 {
   "name": "cs-scss-normalize",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "My SCSS normalizer, based on normalize.css 6.0.0",
-  "engines": {
-    "node": "6.10.0",
-    "npm": "3.10.0"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:herrschuessler/cs-scss-normalize.git"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {},
-  "devDependencies": {},
   "license": "MIT"
 }
